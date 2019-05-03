@@ -24,6 +24,8 @@
      - [Verifiable Log-Backed Map](#verifiable-log-backed-map)
 
 
+
+
 ## Overview
 
 Trillian is an implementation of the concepts described in the
@@ -59,6 +61,8 @@ implementation of CT as a Trillian personality is available in the
 
 Other examples of Trillian personalities are available in the
 [trillian-examples](https://github.com/google/trillian-examples) repo.
+
+
 
 
 ## Support
@@ -406,6 +410,7 @@ Clients of the log-backed map are then able to verify that the entries in the
 Map they are shown are also seen by anyone auditing the Log for correct
 operation, which in turn allows the client to trust the key/value pairs
 returned by the Map.
+
 
 A concrete example of this might be a log-backed map that monitors a
 Certificate Transparency Log and builds a corresponding Map from domain names
